@@ -8,6 +8,7 @@ body {
     text-align: center;
     font-family: monospace;
     background: var(--gradient);
+    cursor: url('images/cat.png'), auto;
 }
 footer {
 height: max-content;
@@ -31,14 +32,13 @@ height: max-content;
     font-weight: 100;
     text-shadow: 1px 1px 2px lightgray;
 }
-.pink {
-    color: var(--branding-color);
-    background-color: var(--branding-color);
-}
 .hero {
    height: 100vh;
     text-align: center;
     background: white;
+}
+.large-margin {
+    margin: 200px;
 }
 .smaller-heading {
     font-size: 17px;
@@ -130,6 +130,7 @@ height: max-content;
     text-decoration: underline;
     font-weight: 600;
 }
+
 @keyframes letterSpacingAnimation {
     0% {
         letter-spacing: normal;
