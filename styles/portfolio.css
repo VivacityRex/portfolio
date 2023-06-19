@@ -122,6 +122,14 @@ height: max-content;
     letter-spacing: normal;
     animation: letterSpacingAnimation 2s forwards;
 }
+.pink-link {
+    text-decoration: none;
+    color: var(--branding-color);
+}
+.pink-link:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
 @keyframes letterSpacingAnimation {
     0% {
         letter-spacing: normal;
