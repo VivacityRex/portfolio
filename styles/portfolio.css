@@ -12,6 +12,13 @@ body {
 footer {
 height: max-content;
 }
+.footer-title a {
+    color: var(--branding-color);
+    text-decoration: none;
+}
+.footer-title a:hover {
+    text-decoration: underline;
+}
 .footer-title {
     font-size: 30px;
     color: white;
@@ -80,6 +87,12 @@ height: max-content;
     font-size: 20px;
     padding: 10px;
     margin: 10px 0;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.social-icon:hover {
+    border-radius: 4px;
+    background-color: #d6d5d5;
+   transform: scale(1.05);
 }
 .email-link {
     text-decoration: none;
@@ -105,7 +118,21 @@ height: max-content;
     height: 100%;
     object-fit: cover;
 }
-
+.spreading-text {
+    letter-spacing: normal;
+    animation: letterSpacingAnimation 2s forwards;
+}
+@keyframes letterSpacingAnimation {
+    0% {
+        letter-spacing: normal;
+    }
+    50% {
+        letter-spacing: 4px;
+    }
+    100% {
+        letter-spacing: normal;
+    }
+}
 @media (max-width: 900px) {
     .project-description {
         text-align: center;  
