@@ -68,6 +68,12 @@ footer {
   margin: 20px;
   width: 50%;
 }
+.email-container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .pink-button:hover {
   color: white;
   background-color: var(--branding-color);
