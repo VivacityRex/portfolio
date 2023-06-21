@@ -121,6 +121,10 @@ footer {
   text-decoration: underline;
   font-weight: 600;
 }
+.pink {
+  color: var(--branding-color);
+  border-color: var(--branding-color);
+}
 .icons {
   font-size: 25px;
   margin: 15px;
