@@ -47,6 +47,9 @@ footer {
 .large-margin {
   margin: 200px;
 }
+.large-margin-top {
+  margin-top: 200px;
+}
 .smaller-heading {
   font-size: 17px;
   opacity: 0.7;
@@ -139,6 +142,11 @@ footer {
 .icons {
   font-size: 25px;
   margin: 15px;
+}
+.right-side {
+  display: flex;
+  align-items: start;
+  margin-left: 30%;
 }
 #floating-title {
   margin: 300px 0 50px;
