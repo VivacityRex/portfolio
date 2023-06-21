@@ -121,6 +121,10 @@ footer {
   text-decoration: underline;
   font-weight: 600;
 }
+.icons {
+  font-size: 25px;
+  margin: 15px;
+}
 #floating-title {
   margin: 300px 0 50px;
   opacity: 0;
