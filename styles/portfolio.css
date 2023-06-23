@@ -212,6 +212,7 @@ footer {
   }
   .small-title {
     font: 10%;
+    text-align: center;
   }
 }
 @media (max-width: 576px) {
@@ -224,5 +225,6 @@ footer {
   .small-title {
     font-size: 19px;
     font-family: monospace;
+    text-align: center;
   }
 }
