@@ -162,6 +162,12 @@ footer {
 .row.m-5 {
   align-items: center;
 }
+.small-card {
+  width: 70%;
+}
+.small-title {
+  font-size: 27px;
+}
 @keyframes slowAndFadeOut {
   0% {
     animation-timing-function: linear;
@@ -198,6 +204,15 @@ footer {
   .footer-title {
     font-size: 25px;
   }
+  .small-text {
+    font-size: 12px;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .small-title {
+    font: 10%;
+  }
 }
 @media (max-width: 576px) {
   .row.justify-content-center > .col.d-none.d-sm-block {
@@ -205,5 +220,9 @@ footer {
   }
   .main-title {
     margin-top: 300px;
+  }
+  .small-title {
+    font-size: 19px;
+    font-family: monospace;
   }
 }
