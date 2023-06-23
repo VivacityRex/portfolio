@@ -202,3 +202,8 @@ footer {
     margin-top: 300px;
   }
 }
+@media (max-width: 576px) {
+  .row.justify-content-center > .col.d-none.d-sm-block {
+    display: none;
+  }
+}
