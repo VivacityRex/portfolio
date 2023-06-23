@@ -213,6 +213,8 @@ footer {
   .small-title {
     font: 10%;
     text-align: center;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 576px) {
