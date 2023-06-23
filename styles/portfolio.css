@@ -57,9 +57,9 @@ footer {
   font-weight: 100;
 }
 .main-title {
-  margin-top: 10%;
   font-size: 35px;
   opacity: 0.8;
+  margin-top: 300px;
 }
 .pink-button {
   color: var(--branding-color);
@@ -198,12 +198,12 @@ footer {
   .footer-title {
     font-size: 25px;
   }
-  .main-title {
-    margin-top: 300px;
-  }
 }
 @media (max-width: 576px) {
   .row.justify-content-center > .col.d-none.d-sm-block {
     display: none;
+  }
+  .main-title {
+    margin-top: 300px;
   }
 }
