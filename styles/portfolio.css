@@ -227,4 +227,8 @@ footer {
     font-family: monospace;
     text-align: center;
   }
+  .title-box {
+    width: 100%;
+    margin: 200px 5px;
+  }
 }
